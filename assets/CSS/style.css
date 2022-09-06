@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/*------------------------------------colors-----------------*/
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-menu-color-home {
+    background-color: #676767;
+}
+
+.ui-menu-color-resume {
+    background-color: #3df546;
+}
+
+.ui-menu-color-contact {
+    background-color: #00efef;
+}
+
+.ui-menu-color-download {
+    background-color: #70057a;
+}
+
+/*------------------------------------header-----------------*/
+
 header {
     margin: 0;
 }
 
+.heading {
+    margin-left: 50px;
+}
 
 .logo {
     background: url();
@@ -15,4 +41,20 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 90p;
+    color: #fff;
 }
